@@ -1,44 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ProgrammingProblemSolutions.Utility
+﻿namespace ProgrammingProblemSolutions.Utility
 {
-    public class TreeNode<T>
+    /* Definition for a binary tree node. */
+    public class TreeNode
     {
-        private T data;
-        private LinkedList<TreeNode<T>> children;
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
 
-        public TreeNode(T data)
+        public TreeNode(int x)
         {
-            this.data = data;
-            children = new LinkedList<TreeNode<T>>();
-        }
-
-        public void AddChild(T data)
-        {
-            children.AddFirst(new TreeNode<T>(data));
-        }
-
-        public TreeNode<T> GetChild(int i)
-        {
-            foreach (TreeNode<T> n in children)
-            {
-                if (--i == 0)
-                {
-                    return n;
-                }
-            }
-
-            return null;
-        }
-
-        public void Traverse(TreeNode<T> node, Action<T> visitor)
-        {
-            visitor(node.data);
-            foreach (TreeNode<T> kid in node.children)
-            {
-                Traverse(kid, visitor);
-            }
+            val = x;
         }
     }
 }
