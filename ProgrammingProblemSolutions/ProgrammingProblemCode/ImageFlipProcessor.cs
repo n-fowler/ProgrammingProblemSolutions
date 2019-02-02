@@ -4,37 +4,35 @@
     {
         public int[][] FlipAndInvertImage(int[][] A)
         {
-            int[][] B = new int[A.Length][];
-
-            //Flip
-            for (int i = 0; i < A.Length; i++)
+            foreach (int[] intArray in A)
             {
-                int k = 0;
-                for (int j = A[i].Length - 1; j >= 0; j--)
-                {
-                    B[i][k] = A[i][j];
-                    k++;
-                }
+                Flip(intArray);
             }
 
-            //Invert
-            foreach (int[] b in B)
+            foreach (int[] intArray in A)
             {
-                for (int k = 0; k < b.Length; k++)
-                {
-                    switch (b[k])
-                    {
-                        case 0:
-                            b[k] = 1;
-                            break;
-                        case 1:
-                            b[k] = 0;
-                            break;
-                    }
-                }
+                Invert(intArray);
             }
 
             return A;
+        }
+
+        internal void Flip(int[] intArray)
+        {
+            for (int index = 0; index < intArray.Length / 2; index++)
+            {
+                int temp = intArray[index];
+                intArray[index] = intArray[intArray.Length - index - 1];
+                intArray[intArray.Length - index - 1] = temp;
+            }
+        }
+
+        internal void Invert(int[] intArray)
+        {
+            for (int index = 0; index < intArray.Length; index++)
+            {
+                intArray[index] = 1 - intArray[index];
+            }
         }
     }
 }

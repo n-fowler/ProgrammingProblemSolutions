@@ -28,5 +28,16 @@ namespace ProgrammingProblemSolutions.UnitTests
 
             Assert.AreEqual(expectedResult, actualResult);
         }
+
+        [TestCase()]
+        public void FindAndReplacePatternTest3()
+        {
+            string pattern = "baba";
+            string[] words = { "badc", "abab", "dddd", "dede", "yyxx" };
+            string[] expectedResult = { "abab", "dede" };
+            string[] actualResult = new FindAndReplacePatternProcessor().FindAndReplacePattern(words, pattern);
+
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
