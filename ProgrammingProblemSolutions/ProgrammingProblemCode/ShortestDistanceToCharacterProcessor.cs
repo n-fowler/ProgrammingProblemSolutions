@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ProgrammingProblemSolutions.ProgrammingProblemCode
 {
     public class ShortestDistanceToCharacterProcessor
     {
-        public int[] ShortestToChar(string S, char C)
+        public int[] ShortestToCharOld(string S, char C)
         {
             char[] schar = S.ToCharArray();
             int[] answer = new int[schar.Length];
@@ -27,6 +28,31 @@ namespace ProgrammingProblemSolutions.ProgrammingProblemCode
                 }
 
                 answer[i] = minDistance;
+            }
+
+            return answer;
+        }
+
+        public int[] ShortestToChar(string S, char C)
+        {
+            int[] answer = new int[S.Length];
+            for (int i = 0; i < answer.Length; i++)
+            {
+                int left = S.Substring(0, i).LastIndexOf(C);
+                int right = S.Substring(i).IndexOf(C);
+
+                if (left >= 0 && right >= 0)
+                {
+                    answer[i] = Math.Min(i - left, right);
+                }
+                else if (left >= 0)
+                {
+                    answer[i] = i - left;
+                }
+                else
+                {
+                    answer[i] = right;
+                }
             }
 
             return answer;
