@@ -4,7 +4,7 @@
     {
         public string[] FindAndReplacePattern(string[] words, string pattern)
         {
-
+            return null;
         }
     }
 }
