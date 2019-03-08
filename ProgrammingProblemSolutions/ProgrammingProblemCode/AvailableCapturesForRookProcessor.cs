@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace ProgrammingProblemSolutions.ProgrammingProblemCode
+﻿namespace ProgrammingProblemSolutions.ProgrammingProblemCode
 {
     public class AvailableCapturesForRookProcessor
     {
@@ -11,11 +9,21 @@ namespace ProgrammingProblemSolutions.ProgrammingProblemCode
         {
             ChessBoard = board;
 
-            var rookPosition = GetRookPosition();
-            ScanLeft(rookPosition.X, rookPosition.Y);
-            ScanRight(rookPosition.X, rookPosition.Y);
-            ScanDown(rookPosition.X, rookPosition.Y);
-            ScanUp(rookPosition.X, rookPosition.Y);
+            for (int i = 0; i < board.Length; i++)
+            {
+                for (int j = 0; j < board[i].Length; j++)
+                {
+                    if (GetPiece(board[i][j]) != Piece.Rook)
+                    {
+                        continue;
+                    }
+
+                    ScanLeft(j, i);
+                    ScanRight(j, i);
+                    ScanDown(j, i);
+                    ScanUp(j, i);
+                }
+            }
 
             return PossibleCaptures;
         }
@@ -41,22 +49,6 @@ namespace ProgrammingProblemSolutions.ProgrammingProblemCode
                 default:
                     return Piece.EmptySpace;
             }
-        }
-
-        private Point GetRookPosition()
-        {
-            for (int i = 0; i < ChessBoard.Length; i++)
-            {
-                for (int j = 0; j < ChessBoard[i].Length; j++)
-                {
-                    if (GetPiece(ChessBoard[i][j]) == Piece.Rook)
-                    {
-                        return new Point(j, i);
-                    }
-                }
-            }
-
-            return new Point(-1, -1);
         }
 
         private void ScanLeft(int x, int y)
