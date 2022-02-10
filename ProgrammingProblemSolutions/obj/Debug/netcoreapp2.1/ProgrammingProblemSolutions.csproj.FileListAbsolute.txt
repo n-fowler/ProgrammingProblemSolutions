@@ -13,3 +13,20 @@ C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSoluti
 C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.AssemblyInfo.cs
 C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.dll
 C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.pdb
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\ProgrammingProblemSolutions.deps.json
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\ProgrammingProblemSolutions.runtimeconfig.json
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\ProgrammingProblemSolutions.runtimeconfig.dev.json
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\ProgrammingProblemSolutions.dll
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\bin\Debug\netcoreapp2.1\ProgrammingProblemSolutions.pdb
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.csproj.AssemblyReference.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.AssemblyInfoInputs.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.AssemblyInfo.cs
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.csproj.CoreCompileInputs.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.dll
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.pdb
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\ProgrammingProblemSolutions\obj\Debug\netcoreapp2.1\ProgrammingProblemSolutions.genruntimeconfig.cache

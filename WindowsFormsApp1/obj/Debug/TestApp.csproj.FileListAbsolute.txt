@@ -10,3 +10,16 @@ C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSoluti
 C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\TestApp.csproj.CopyComplete
 C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\nicholas\Documents\Visual Studio 2017\Projects\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\bin\Debug\nunit.framework.dll
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\bin\Debug\nunit.framework.xml
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\TestApp.csproj.AssemblyReference.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\TestApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\TestApp.csproj.GenerateResource.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\TestApp.csproj.CopyComplete
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\nicholas\Source\Repos\ProgrammingProblemSolutions\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
