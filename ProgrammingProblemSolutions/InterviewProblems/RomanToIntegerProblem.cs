@@ -13,10 +13,6 @@ namespace ProgrammingProblemSolutions.InterviewProblems
             {
                 if (i == chars.Length - 1)
                 {
-                    if (performedSubtraction)
-                    {
-                        return value;
-                    }
                     value += GetRomanNumeralValue(chars[i]);
                     return value;
                 }
@@ -25,9 +21,11 @@ namespace ProgrammingProblemSolutions.InterviewProblems
                 {
                     performedSubtraction = true;
                     value += dict.GetValueOrDefault(true);
+                    i++;
                 }
                 else
                 {
+                    performedSubtraction = false;
                     value += GetRomanNumeralValue(chars[i]);
                 }
             }
@@ -39,21 +37,20 @@ namespace ProgrammingProblemSolutions.InterviewProblems
         {
             Dictionary<bool, int> dict = new Dictionary<bool, int>();
 
-            if (current == 'I' && (next == 'V' || next == 'X'))
+            switch (current)
             {
-                dict.Add(true, next == 'V' ? 4 : 9);
-            }
-            else if (current == 'X' && (next == 'L' || next == 'C'))
-            {
-                dict.Add(true, next == 'L' ? 40 : 90);
-            }
-            else if (current == 'C' && (next == 'D' || next == 'M'))
-            {
-                dict.Add(true, next == 'D' ? 400 : 900);
-            }
-            else
-            {
-                dict.Add(false, 0);
+                case 'C' when next == 'D' || next == 'M':
+                    dict.Add(true, next == 'D' ? 400 : 900);
+                    break;
+                case 'X' when next == 'L' || next == 'C':
+                    dict.Add(true, next == 'L' ? 40 : 90);
+                    break;
+                case 'I' when next == 'V' || next == 'X':
+                    dict.Add(true, next == 'V' ? 4 : 9);
+                    break;
+                default:
+                    dict.Add(false, 0);
+                    break;
             }
 
             return dict;
